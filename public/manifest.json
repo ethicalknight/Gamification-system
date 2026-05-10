@@ -6,7 +6,10 @@
   "display": "standalone",
   "background_color": "#070d1a",
   "theme_color": "#0080ff",
-  "orientation": "portrait-primary",
+  "orientation": "any",
+  "display_override": ["standalone", "window-controls-overlay"],
+  "scope": "/",
+  "id": "/",
   "icons": [
     { "src": "/icon-72x72.png", "sizes": "72x72", "type": "image/png", "purpose": "maskable any" },
     { "src": "/icon-96x96.png", "sizes": "96x96", "type": "image/png", "purpose": "maskable any" },
